@@ -9,7 +9,7 @@ cordova.addConstructor(function() {
 
     if (!window.Cordova) {
         window.Cordova = cordova;
-    };
+    }
 
     if(!window.plugins) window.plugins = {};
     window.plugins.TelephonyChecker = new TelephonyChecker();
