@@ -1,0 +1,30 @@
+{
+  "name": "CordovaCanCallPlugin",
+  "version": "0.0.1",
+  "description": "Detect Phone Capability in Ionic/Cordova App",
+  "cordova": {
+    "id": "cri-cancall-plugin",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrystalVisions/CordovaCanCallPlugin.git"
+  },
+  "keywords": [
+    "cordova",
+    "ionic",
+    "telephony",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "Diane Loux",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/CrystalVisions/CordovaCanCallPlugin/issues"
+  },
+  "homepage": "https://github.com/CrystalVisions/CordovaCanCallPlugin#readme"
+}

@@ -1,7 +1,7 @@
 var TelephonyChecker = function(){};
 
 TelephonyChecker.prototype.canCall = function(success, failure){
-    cordova.exec(success, failure, "PhoneCheck", "checkTelephony", []);
+    cordova.exec(success, failure, "TelephonyChecker", "checkTelephony", []);
 };
 
 
