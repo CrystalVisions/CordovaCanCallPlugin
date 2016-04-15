@@ -7,11 +7,11 @@
 
   <description>Detect Phone Capability in Ionic/Cordova App</description>
 
-  <name>CordovaCanCallPlugin</name>
+  <name>Cordova Can Call Plugin</name>
   <author>Diane Loux</author>
 
   <license>Apache 2.0</license>
-  <keywords>cordova,ionic,telephony</keywords>
+  <keywords>cordova,telephony,ionic</keywords>
   <js-module src="www/can-call.js" name="TelephonyChecker">
     <clobbers target="telephonyChecker"/>
   </js-module>
@@ -28,14 +28,13 @@
 
   <platform name="android">
       <config-file target="res/xml/config.xml" parent="/*">
-          <feature name="CanCall">
-              <param name="android-package" value="com.mms.cri.cancall.TelephonyChecker"/>
+          <feature name="TelephonyChecker">
+              <param name="android-package" value="com.sparetimegames.telephonychecker.TelephonyChecker"/>
           </feature>
       </config-file>
       <config-file target="AndroidManifest.xml" parent="/*">
-          <uses-permission android:name="android.permission.CALL_PHONE"/>
           <uses-feature android:name="android.hardware.telephony" android:required="false" />
       </config-file>
-      <source-file src="src/android/TelephonyChecker.java" target-dir="src/com/mms/cri/cancall" />
+      <source-file src="src/android/TelephonyChecker.java" target-dir="src/com/sparetimegames/telephonychecker" />
   </platform>
 </plugin>

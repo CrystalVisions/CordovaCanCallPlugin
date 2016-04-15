@@ -15,8 +15,8 @@
   },
   "keywords": [
     "cordova",
-    "ionic",
     "telephony",
+    "ionic",
     "ecosystem:cordova",
     "cordova-ios",
     "cordova-android"
