@@ -18,7 +18,6 @@
             pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
         }
 
-        ß
 
         [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 
