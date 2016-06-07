@@ -10,6 +10,7 @@
         CDVPluginResult* pluginResult = nil;
 
 
+        NSString *number = @"tel:6035551212";
 
         if(![[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:number]]) {
             pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"This device does not have phone capabilities."];
